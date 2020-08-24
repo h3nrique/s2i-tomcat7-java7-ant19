@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+pushd ${HOME} >/dev/null
+
+popd >/dev/null

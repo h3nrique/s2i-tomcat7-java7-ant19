@@ -1,0 +1,5 @@
+#!/bin/bash
+
+bash $STI_SCRIPTS_PATH/prepare.sh
+
+exec $CATALINA_HOME/bin/catalina.sh run
