@@ -1,10 +1,15 @@
-# S2I with Apache Tomcat 7, Sun Java 7 and Apache Ant 1.9
+# S2I with Apache Tomcat 7, Java 7 and Apache Ant 1.9
 
 S2I Image Builder for building with Maven2 and running Java 7 applications on Tomcat 7.
+
+Before Start
+---
+Download JDK 7 and put in `java-installer` directory
 
 Local Docker build
 ---
 ```bash
+$ cd s2i-tomcat7-java7-ant19
 $ docker build -t h3nrique/s2i-tomcat7-java7-ant19:latest .
 ```
 
